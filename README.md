@@ -1,50 +1,30 @@
-# React + TypeScript + Vite
+##### React Router DOM Typescript 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##### useSearchParameters Demonstration
 
-Currently, two official plugins are available:
+![USearchDemo-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/00f864ad-9715-4c15-b8a2-59eacad1dd85)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+#### URLSearchParams Demonstration (useLocation().search()) 
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![SearchDemo-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/ae2fa4ab-16cc-41f3-8c52-99a6e3af869f)
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+##### useParams Demonstration
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+![image](https://github.com/user-attachments/assets/9b53adb1-a9f1-4249-b319-1970dbcdb071)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+##### Home Page
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+![image](https://github.com/user-attachments/assets/1cf08024-fad6-4479-a92c-1f3ba926fbce)
+
+##### About Page
+
+![image](https://github.com/user-attachments/assets/38c6690f-e110-4302-b3c9-ba594a4bc60a)
+
+#### Nested Routers
+
+![image](https://github.com/user-attachments/assets/49f07912-a636-470a-bffc-a2428bca031e)
+
+![image](https://github.com/user-attachments/assets/f2d58fa6-583e-4bb2-963a-36c87303ec57)
+
